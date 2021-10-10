@@ -1,0 +1,142 @@
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\IU.exe.config
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\IU.exe
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\IU.pdb
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\EntityFramework.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\Google.Protobuf.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\MySql.Data.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\System.Buffers.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\System.Memory.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\Zstandard.Net.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\EntityFramework.xml
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\Google.Protobuf.pdb
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\Google.Protobuf.xml
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\MySql.Data.xml
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\System.Buffers.xml
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\System.Memory.xml
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\obj\Debug\IU.csprojAssemblyReference.cache
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\obj\Debug\IU.FClientes.resources
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\obj\Debug\IU.Form1.resources
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\obj\Debug\IU.Properties.Resources.resources
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\obj\Debug\IU.csproj.GenerateResource.cache
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\obj\Debug\IU.csproj.CoreCompileInputs.cache
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\obj\Debug\IU.csproj.CopyComplete
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\obj\Debug\IU.exe
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\obj\Debug\IU.pdb
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\BLL.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\DAL.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\BLL.pdb
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\BLL.dll.config
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\DAL.pdb
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\bin\Debug\DAL.dll.config
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial2SerieB\IU\obj\Debug\IU.FDepartamento.resources
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\IU.exe.config
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\IU.exe
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\IU.pdb
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\BLL.dll
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\EntityFramework.dll
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\Google.Protobuf.dll
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\MySql.Data.dll
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\System.Buffers.dll
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\System.Memory.dll
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\Zstandard.Net.dll
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\DAL.dll
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\BLL.pdb
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\BLL.dll.config
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\EntityFramework.xml
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\Google.Protobuf.pdb
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\Google.Protobuf.xml
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\MySql.Data.xml
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\System.Buffers.xml
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\System.Memory.xml
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\DAL.pdb
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\bin\Debug\DAL.dll.config
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\obj\Debug\IU.csproj.AssemblyReference.cache
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\obj\Debug\IU.Form2.resources
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\obj\Debug\IU.Form3.resources
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\obj\Debug\IU.Form1.resources
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\obj\Debug\IU.Properties.Resources.resources
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\obj\Debug\IU.csproj.GenerateResource.cache
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\obj\Debug\IU.csproj.CoreCompileInputs.cache
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\obj\Debug\IU.csproj.CopyComplete
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\obj\Debug\IU.exe
+C:\Users\Windows 10 Pro HD\Desktop\Parcial2SerieB\IU\obj\Debug\IU.pdb
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\IU.exe.config
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\IU.exe
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\IU.pdb
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\BLL.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\EntityFramework.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\Google.Protobuf.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\MySql.Data.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\System.Buffers.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\System.Memory.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\Zstandard.Net.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\DAL.dll
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\BLL.pdb
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\BLL.dll.config
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\EntityFramework.xml
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\Google.Protobuf.pdb
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\Google.Protobuf.xml
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\MySql.Data.xml
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\System.Buffers.xml
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\System.Memory.xml
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\DAL.pdb
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\bin\Debug\DAL.dll.config
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\obj\Debug\IU.csprojAssemblyReference.cache
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\obj\Debug\IU.Form2.resources
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\obj\Debug\IU.Form3.resources
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\obj\Debug\IU.Form1.resources
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\obj\Debug\IU.Properties.Resources.resources
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\obj\Debug\IU.csproj.GenerateResource.cache
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\obj\Debug\IU.csproj.CoreCompileInputs.cache
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\obj\Debug\IU.csproj.CopyComplete
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\obj\Debug\IU.exe
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\obj\Debug\IU.pdb
+C:\Users\Josué\Desktop\ProyectoCristel\Parcial Maria Helena\Parcial2SerieB\IU\obj\Debug\IU.Form4.resources

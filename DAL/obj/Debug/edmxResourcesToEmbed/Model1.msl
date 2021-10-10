@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="envioModelStoreContainer" CdmEntityContainer="envioEntities">
+    <EntitySetMapping Name="cliente">
+      <EntityTypeMapping TypeName="envioModel.cliente">
+        <MappingFragment StoreEntitySet="cliente">
+          <ScalarProperty Name="ClienteId" ColumnName="ClienteId" />
+          <ScalarProperty Name="nombre_completo" ColumnName="nombre_completo" />
+          <ScalarProperty Name="nit" ColumnName="nit" />
+          <ScalarProperty Name="direccion_factura" ColumnName="direccion_factura" />
+          <ScalarProperty Name="telefono" ColumnName="telefono" />
+          <ScalarProperty Name="direccion_remitente" ColumnName="direccion_remitente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="departamento">
+      <EntityTypeMapping TypeName="envioModel.departamento">
+        <MappingFragment StoreEntitySet="departamento">
+          <ScalarProperty Name="DepartamentoId" ColumnName="DepartamentoId" />
+          <ScalarProperty Name="nombre_departamento" ColumnName="nombre_departamento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="envio">
+      <EntityTypeMapping TypeName="envioModel.envio">
+        <MappingFragment StoreEntitySet="envio">
+          <ScalarProperty Name="EnvioId" ColumnName="EnvioId" />
+          <ScalarProperty Name="ClienteId" ColumnName="ClienteId" />
+          <ScalarProperty Name="PaqueteId" ColumnName="PaqueteId" />
+          <ScalarProperty Name="fecha_envio" ColumnName="fecha_envio" />
+          <ScalarProperty Name="valor_envio" ColumnName="valor_envio" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="municipio">
+      <EntityTypeMapping TypeName="envioModel.municipio">
+        <MappingFragment StoreEntitySet="municipio">
+          <ScalarProperty Name="MunicipioId" ColumnName="MunicipioId" />
+          <ScalarProperty Name="DepartamentoId" ColumnName="DepartamentoId" />
+          <ScalarProperty Name="nombre_municipio" ColumnName="nombre_municipio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="paquete">
+      <EntityTypeMapping TypeName="envioModel.paquete">
+        <MappingFragment StoreEntitySet="paquete">
+          <ScalarProperty Name="PaqueteId" ColumnName="PaqueteId" />
+          <ScalarProperty Name="MunicipioId" ColumnName="MunicipioId" />
+          <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+          <ScalarProperty Name="peso_libras" ColumnName="peso_libras" />
+          <ScalarProperty Name="nombre_destinatario" ColumnName="nombre_destinatario" />
+          <ScalarProperty Name="direccion_destino" ColumnName="direccion_destino" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

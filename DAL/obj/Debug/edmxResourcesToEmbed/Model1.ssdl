@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="envioModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="8.0" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="cliente">
+    <Key>
+      <PropertyRef Name="ClienteId" />
+    </Key>
+    <Property Name="ClienteId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre_completo" Type="varchar" MaxLength="300" Nullable="false" />
+    <Property Name="nit" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="direccion_factura" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="telefono" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="direccion_remitente" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="departamento">
+    <Key>
+      <PropertyRef Name="DepartamentoId" />
+    </Key>
+    <Property Name="DepartamentoId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre_departamento" Type="varchar" MaxLength="60" Nullable="false" />
+  </EntityType>
+  <EntityType Name="envio">
+    <Key>
+      <PropertyRef Name="EnvioId" />
+    </Key>
+    <Property Name="EnvioId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClienteId" Type="int" Nullable="false" />
+    <Property Name="PaqueteId" Type="int" Nullable="false" />
+    <Property Name="fecha_envio" Type="date" Nullable="false" />
+    <Property Name="valor_envio" Type="decimal" Precision="8" Scale="2" Nullable="false" />
+    <Property Name="estado" Type="bool" Nullable="false" />
+  </EntityType>
+  <EntityType Name="municipio">
+    <Key>
+      <PropertyRef Name="MunicipioId" />
+    </Key>
+    <Property Name="MunicipioId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DepartamentoId" Type="int" />
+    <Property Name="nombre_municipio" Type="varchar" MaxLength="60" Nullable="false" />
+  </EntityType>
+  <EntityType Name="paquete">
+    <Key>
+      <PropertyRef Name="PaqueteId" />
+    </Key>
+    <Property Name="PaqueteId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MunicipioId" Type="int" />
+    <Property Name="descripcion" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="peso_libras" Type="decimal" Precision="6" Scale="2" Nullable="false" />
+    <Property Name="nombre_destinatario" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="direccion_destino" Type="varchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <Association Name="Relationship1">
+    <End Role="departamento" Type="Self.departamento" Multiplicity="0..1" />
+    <End Role="municipio" Type="Self.municipio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="departamento">
+        <PropertyRef Name="DepartamentoId" />
+      </Principal>
+      <Dependent Role="municipio">
+        <PropertyRef Name="DepartamentoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Relationship2">
+    <End Role="municipio" Type="Self.municipio" Multiplicity="0..1" />
+    <End Role="paquete" Type="Self.paquete" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="municipio">
+        <PropertyRef Name="MunicipioId" />
+      </Principal>
+      <Dependent Role="paquete">
+        <PropertyRef Name="MunicipioId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Relationship3">
+    <End Role="cliente" Type="Self.cliente" Multiplicity="1" />
+    <End Role="envio" Type="Self.envio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cliente">
+        <PropertyRef Name="ClienteId" />
+      </Principal>
+      <Dependent Role="envio">
+        <PropertyRef Name="ClienteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Relationship4">
+    <End Role="paquete" Type="Self.paquete" Multiplicity="1" />
+    <End Role="envio" Type="Self.envio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="paquete">
+        <PropertyRef Name="PaqueteId" />
+      </Principal>
+      <Dependent Role="envio">
+        <PropertyRef Name="PaqueteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="envioModelStoreContainer">
+    <EntitySet Name="cliente" EntityType="Self.cliente" Schema="envio" store:Type="Tables" />
+    <EntitySet Name="departamento" EntityType="Self.departamento" Schema="envio" store:Type="Tables" />
+    <EntitySet Name="envio" EntityType="Self.envio" Schema="envio" store:Type="Tables" />
+    <EntitySet Name="municipio" EntityType="Self.municipio" Schema="envio" store:Type="Tables" />
+    <EntitySet Name="paquete" EntityType="Self.paquete" Schema="envio" store:Type="Tables" />
+    <AssociationSet Name="Relationship1" Association="Self.Relationship1">
+      <End Role="departamento" EntitySet="departamento" />
+      <End Role="municipio" EntitySet="municipio" />
+    </AssociationSet>
+    <AssociationSet Name="Relationship2" Association="Self.Relationship2">
+      <End Role="municipio" EntitySet="municipio" />
+      <End Role="paquete" EntitySet="paquete" />
+    </AssociationSet>
+    <AssociationSet Name="Relationship3" Association="Self.Relationship3">
+      <End Role="cliente" EntitySet="cliente" />
+      <End Role="envio" EntitySet="envio" />
+    </AssociationSet>
+    <AssociationSet Name="Relationship4" Association="Self.Relationship4">
+      <End Role="paquete" EntitySet="paquete" />
+      <End Role="envio" EntitySet="envio" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

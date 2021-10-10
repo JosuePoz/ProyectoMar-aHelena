@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="envioModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="cliente">
+    <Key>
+      <PropertyRef Name="ClienteId" />
+    </Key>
+    <Property Name="ClienteId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre_completo" Type="String" MaxLength="300" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="nit" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="direccion_factura" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="telefono" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="direccion_remitente" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="envio" Relationship="Self.Relationship3" FromRole="cliente" ToRole="envio" />
+  </EntityType>
+  <EntityType Name="departamento">
+    <Key>
+      <PropertyRef Name="DepartamentoId" />
+    </Key>
+    <Property Name="DepartamentoId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre_departamento" Type="String" MaxLength="60" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="municipio" Relationship="Self.Relationship1" FromRole="departamento" ToRole="municipio" />
+  </EntityType>
+  <EntityType Name="envio">
+    <Key>
+      <PropertyRef Name="EnvioId" />
+    </Key>
+    <Property Name="EnvioId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClienteId" Type="Int32" Nullable="false" />
+    <Property Name="PaqueteId" Type="Int32" Nullable="false" />
+    <Property Name="fecha_envio" Type="DateTime" Nullable="false" />
+    <Property Name="valor_envio" Type="Decimal" Nullable="false" />
+    <Property Name="estado" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="cliente" Relationship="Self.Relationship3" FromRole="envio" ToRole="cliente" />
+    <NavigationProperty Name="paquete" Relationship="Self.Relationship4" FromRole="envio" ToRole="paquete" />
+  </EntityType>
+  <EntityType Name="municipio">
+    <Key>
+      <PropertyRef Name="MunicipioId" />
+    </Key>
+    <Property Name="MunicipioId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DepartamentoId" Type="Int32" />
+    <Property Name="nombre_municipio" Type="String" MaxLength="60" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="departamento" Relationship="Self.Relationship1" FromRole="municipio" ToRole="departamento" />
+    <NavigationProperty Name="paquete" Relationship="Self.Relationship2" FromRole="municipio" ToRole="paquete" />
+  </EntityType>
+  <EntityType Name="paquete">
+    <Key>
+      <PropertyRef Name="PaqueteId" />
+    </Key>
+    <Property Name="PaqueteId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MunicipioId" Type="Int32" />
+    <Property Name="descripcion" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="peso_libras" Type="Decimal" Nullable="false" />
+    <Property Name="nombre_destinatario" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="direccion_destino" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="envio" Relationship="Self.Relationship4" FromRole="paquete" ToRole="envio" />
+    <NavigationProperty Name="municipio" Relationship="Self.Relationship2" FromRole="paquete" ToRole="municipio" />
+  </EntityType>
+  <Association Name="Relationship3">
+    <End Role="cliente" Type="Self.cliente" Multiplicity="1" />
+    <End Role="envio" Type="Self.envio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cliente">
+        <PropertyRef Name="ClienteId" />
+      </Principal>
+      <Dependent Role="envio">
+        <PropertyRef Name="ClienteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Relationship1">
+    <End Role="departamento" Type="Self.departamento" Multiplicity="0..1" />
+    <End Role="municipio" Type="Self.municipio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="departamento">
+        <PropertyRef Name="DepartamentoId" />
+      </Principal>
+      <Dependent Role="municipio">
+        <PropertyRef Name="DepartamentoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Relationship4">
+    <End Role="paquete" Type="Self.paquete" Multiplicity="1" />
+    <End Role="envio" Type="Self.envio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="paquete">
+        <PropertyRef Name="PaqueteId" />
+      </Principal>
+      <Dependent Role="envio">
+        <PropertyRef Name="PaqueteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Relationship2">
+    <End Role="municipio" Type="Self.municipio" Multiplicity="0..1" />
+    <End Role="paquete" Type="Self.paquete" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="municipio">
+        <PropertyRef Name="MunicipioId" />
+      </Principal>
+      <Dependent Role="paquete">
+        <PropertyRef Name="MunicipioId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="envioEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="cliente" EntityType="Self.cliente" />
+    <EntitySet Name="departamento" EntityType="Self.departamento" />
+    <EntitySet Name="envio" EntityType="Self.envio" />
+    <EntitySet Name="municipio" EntityType="Self.municipio" />
+    <EntitySet Name="paquete" EntityType="Self.paquete" />
+    <AssociationSet Name="Relationship3" Association="Self.Relationship3">
+      <End Role="cliente" EntitySet="cliente" />
+      <End Role="envio" EntitySet="envio" />
+    </AssociationSet>
+    <AssociationSet Name="Relationship1" Association="Self.Relationship1">
+      <End Role="departamento" EntitySet="departamento" />
+      <End Role="municipio" EntitySet="municipio" />
+    </AssociationSet>
+    <AssociationSet Name="Relationship4" Association="Self.Relationship4">
+      <End Role="paquete" EntitySet="paquete" />
+      <End Role="envio" EntitySet="envio" />
+    </AssociationSet>
+    <AssociationSet Name="Relationship2" Association="Self.Relationship2">
+      <End Role="municipio" EntitySet="municipio" />
+      <End Role="paquete" EntitySet="paquete" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
